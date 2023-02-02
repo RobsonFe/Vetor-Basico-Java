@@ -34,6 +34,16 @@ public class Vetor {
 		// "%.2f%n" esse numero 2 significa o numero de casas decimais que eu quero que seja impresso no resultado.
 		
 		
+		String[] vetor = new String[] {"Maria", "Bob", "Alex" };
+		// outra forma de fazer um vetor
+		
+		// laço do vetor 
+		for (int i=0; i<vetor.length; i++) {
+			System.out.println(vetor.length);
+		}
+
+		
+		
 		leia.close();
 	}
 
